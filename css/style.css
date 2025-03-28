@@ -1,11 +1,43 @@
-header {
-    background-color: #333;
-    padding: 2em;
-    text-align: center;
-    color: white;
+body {
+    padding-bottom: 30em;
 }
-#titulo {
-    font-size: 400%;
+header {
+    background-color: white;
+    /* padding: 2em; */
+    text-align: center;
+    color: #333;
+}
+#nav {
+    background-color: #333 !important;
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+img {
+    width: 50px;
+}
+#text {
+    color: white;
+    font-size: 150%;
+}
+.btn-primary {
+    background-color: #333 !important;
+}
+/* #img {
+    height: 50em !important;
+} */
+#video {
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 68em !important;
+    width: 120.9em !important;
+}
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 1em;
+    padding: 1em !important;
+    left: 30em !important;
+    right: 30em !important;
 }
 footer {
     text-align: center;

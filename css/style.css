@@ -1,9 +1,13 @@
+* {
+   /* margin: 0; 
+   padding: 0; */
+   font-family: Arial, sans-serif;
+}
 body {
     padding-bottom: 30em;
 }
 header {
     background-color: white;
-    /* padding: 2em; */
     text-align: center;
     color: #333;
 }
@@ -23,21 +27,60 @@ img {
 .btn-primary {
     background-color: #333 !important;
 }
-/* #img {
+#img {
+    object-fit: cover !important;
+    width: 100% !important;
     height: 50em !important;
-} */
+}
 #video {
     margin-top: 0;
     margin-bottom: 0;
-    height: 68em !important;
-    width: 120.9em !important;
+    object-fit: cover !important;
+    width: 100% !important;
+    height: 50em !important;
 }
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 1em;
     padding: 1em !important;
-    left: 30em !important;
-    right: 30em !important;
+    left: 10em !important;
+    right: 10em !important;
+}
+#conheToca {
+    padding: 3em;
+    text-align: center;
+    background-color: #333 !important;
+    color: white;
+}
+#navToca { 
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 1% !important;
+    margin-right: 1% !important;  
+    justify-content: center !important;
+}
+#imgTurismo {
+    width: 100%;
+    border: solid white 2px;
+    border-radius: 1em;
+}
+#section-turismo {
+    border: 2px solid white;
+    border-radius: 1em;
+    background-color: #333;
+    color: white;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 1em !important;
+    width: 400px;
+    margin: 0% 1% !important;
+}
+#card-body {
+    align-items: center;
+    width: 105%;
+}
+.card-text {
+    text-align: justify;
 }
 footer {
     text-align: center;
@@ -45,6 +88,65 @@ footer {
     padding: 1em;
     color: white;
 }
-@media (min-width:200) and (max-width:768) {
-    
+@media (min-width:200px) and (max-width:767px) {
+    #img {
+        object-fit: cover !important;
+        width: 100%!important;
+        height: 25em !important;
+    }
+    #video {
+        margin-top: 0;
+        margin-bottom: 0;
+        object-fit: cover !important;
+        width: 100% !important;
+        height: 25em !important;
+    }
+    #conheToca {
+        padding: 3em;
+        text-align: center !important;
+        justify-content: center !important;
+        font-size: 50%;
+        background-color: #333 !important;
+        color: white;
+    }
+    .carousel-caption {
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 1em;
+        font-family: Arial, sans-serif;
+        font-size: 1em !important;
+        padding: 1em !important;
+        left: 100em !important;
+        right: 100em !important;
+    }
+}
+@media (min-width:768px) and (max-width:1524px) {
+    #img {
+        object-fit: cover !important;
+        width: 100%!important;
+        height: 40em !important;
+    }
+    #video {
+        margin-top: 0;
+        margin-bottom: 0;
+        object-fit: cover !important;
+        width: 100% !important;
+        height: 40em !important;
+    }
+    #conheToca {
+        padding: 3em;
+        text-align: center !important;
+        justify-content: center !important;
+        font-size: 50%;
+        background-color: #333 !important;
+        color: white;
+    }
+    .carousel-caption {
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 1em;
+        font-family: Arial, sans-serif !important;
+        font-size: 20px !important;
+        padding: 1em !important;
+        left: 10em !important;
+        right: 10em !important;
+    }
 }

@@ -193,6 +193,13 @@ footer {
     #instagram {
         width: 19%;
     }
+
+    footer {
+    text-align: center;
+    background-color: #333;
+    padding: 0.5em;
+    color: white;
+    }
 }
 
 @media (min-width:768px) and (max-width:1524px) {
